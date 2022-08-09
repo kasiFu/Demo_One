@@ -1,0 +1,58 @@
+--  QuickParse File Version: EDG_6_2  --
+HOME_DIRECTORY D:\Code\Demo
+BEGIN_RECORD airport.c
+CHECKSUM 3174748995
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   BoardingPassAddFlight
+   BoardingPassCreate
+   BoardingPassPrintAll
+   IntToText
+   LogBoardingPass
+   airportAltimeter
+CALLED_OBJECTS
+   airportBarometer
+   printCR
+   printFloat
+   printString
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+GLOBAL_OBJECTS_DEFINED
+   seaLevelPressure
+END_RECORD airport.c
+BEGIN_RECORD database.c
+CHECKSUM  1299259799
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   Get_Table_Record
+   Update_Table_Record
+   log_tax_receipts
+CALLED_OBJECTS
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+GLOBAL_OBJECTS_DEFINED
+   Table_Data
+END_RECORD database.c
+BEGIN_RECORD manager.c
+CHECKSUM 1980171636
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   Add_Included_Dessert
+   Add_Party_To_Waiting_List
+   Add_Tax_Tip
+   Clear_Table
+   Get_Check_Total
+   Get_Next_Party_To_Be_Seated
+   Place_Order
+CALLED_OBJECTS
+   Get_Table_Record
+   Update_Table_Record
+   log_tax_receipts
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+GLOBAL_OBJECTS_DEFINED
+   NULL_ORDER
+END_RECORD manager.c
